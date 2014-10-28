@@ -19,3 +19,21 @@ body
 		font-weight: lighter;
 	}
 }
+
+.talks_container
+{
+	.talk_thumbnail
+	{
+		paper-button[raised].play
+		{
+			color: white;
+			background-color: #259b24;
+		}
+
+		paper-button[raised].download_slides
+		{
+			color: white;
+			background-color: #e51c23;
+		}
+	}
+}
