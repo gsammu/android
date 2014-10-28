@@ -1,0 +1,11 @@
+body {
+  font-family: 'Roboto'; }
+  body .container-fluid {
+    padding: 0px; }
+
+.jumbotron {
+  color: white;
+  background-color: #3e50b4;
+  padding: 5%; }
+  .jumbotron .h1_caption {
+    font-weight: lighter; }

@@ -1,0 +1,21 @@
+body
+{
+	font-family: 'Roboto';
+
+	.container-fluid
+	{
+		padding: 0px;
+	}
+}
+
+.jumbotron
+{
+	color: white;
+	background-color: rgb(62, 80, 180);
+	padding: 5%;
+
+	.h1_caption
+	{
+		font-weight: lighter;
+	}
+}
