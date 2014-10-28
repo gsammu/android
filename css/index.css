@@ -10,6 +10,10 @@ body {
   .jumbotron .h1_caption {
     font-weight: lighter; }
 
+.attending_container google-map {
+  display: block;
+  height: 300px; }
+
 .talks_container .talk_thumbnail paper-button[raised].play {
   color: white;
   background-color: #259b24; }

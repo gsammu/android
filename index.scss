@@ -20,6 +20,16 @@ body
 	}
 }
 
+.attending_container
+{
+	google-map
+	{
+		display: block;
+		width: 100%;
+		height: 300px;
+	}
+}
+
 .talks_container
 {
 	.talk_thumbnail
