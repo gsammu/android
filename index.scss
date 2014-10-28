@@ -6,6 +6,12 @@ body
 	{
 		padding: 0px;
 	}
+
+	.vertical-gap
+	{
+		display:block;
+		margin: 20px;
+	}
 }
 
 .jumbotron
@@ -13,6 +19,7 @@ body
 	color: white;
 	background-color: rgb(62, 80, 180);
 	padding: 5%;
+	margin-bottom: 0px;
 
 	.h1_caption
 	{
