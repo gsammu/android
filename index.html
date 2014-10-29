@@ -17,6 +17,12 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link href='css/index.css' rel='stylesheet'>
 
+    <!-- Responsive Youtube Embed  -->
+    <style>
+      .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
+      .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    </style>
+
     <!-- JavaScript -->
     <script src='bower_components/bootstrap/dist/css/bootstrap.min.js'></script>
     <script src='bower_components/jquery/dist/jquery.min.js'></script>
@@ -95,7 +101,9 @@
         <!-- Franz -->
         <div class="talk_thumbnail col-lg-6 col-md-6 col-sm-12">
           <div class="thumbnail">
-            <img src="images/andy_say_hi.png" alt="">
+            <div class='embed-container'>
+              <iframe src='http://www.youtube.com/embed/dQw4w9WgXcQ' frameborder='0' allowfullscreen></iframe>
+            </div>
             <div class="caption">
               <div class="row">
                 <div class="col-md-12">
@@ -107,16 +115,16 @@
               <p>The new OS is about to be released soon. What are the cool stuffs you can do with its SDKs?</p>
 
               <a href="http://www.anonoz.com">
-                <paper-button raised class="download_slides">
+                <paper-button raised disabled class="download_slides">
                   <core-icon icon="drive-presentation"></core-icon>
-                  VIEW SLIDES
+                  SLIDES
                 </paper-button>
               </a>
 
               <a href="http://www.github.com">
-                <paper-button raised>
+                <paper-button raised disabled>
                   <core-icon icon="archive"></core-icon>
-                  SOURCE CODES
+                  CODES
                 </paper-button>
               </a>
 
@@ -129,7 +137,9 @@
         <!-- Sasaug -->
         <div class="talk_thumbnail col-lg-6 col-md-6 col-sm-12">
           <div class="thumbnail">
-            <img src="images/andy_say_hi.png" alt="">
+            <div class='embed-container'>
+              <iframe src='http://www.youtube.com/embed/dQw4w9WgXcQ' frameborder='0' allowfullscreen></iframe>
+            </div>
             <div class="caption">
               <div class="row">
                 <div class="col-md-12">
@@ -141,16 +151,16 @@
               <p>The new OS is about to be released soon. What are the cool stuffs you can do with its SDKs?</p>
 
               <a href="http://www.anonoz.com">
-                <paper-button raised class="download_slides">
+                <paper-button raised disabled class="download_slides">
                   <core-icon icon="drive-presentation"></core-icon>
-                  VIEW SLIDES
+                  SLIDES
                 </paper-button>
               </a>
 
               <a href="http://www.github.com">
-                <paper-button raised>
+                <paper-button raised disabled>
                   <core-icon icon="archive"></core-icon>
-                  SOURCE CODES
+                  CODES
                 </paper-button>
               </a>
 
