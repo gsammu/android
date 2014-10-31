@@ -7708,6 +7708,48 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/event1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206398,
+		"inputAbbreviatedPath": "\/images\/event1.jpg",
+		"outputAbbreviatedPath": "\/images\/event1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gdays2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46841,
+		"inputAbbreviatedPath": "\/images\/gdays2.jpg",
+		"outputAbbreviatedPath": "\/images\/gdays2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gdays_cover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89488,
+		"inputAbbreviatedPath": "\/images\/gdays_cover.png",
+		"outputAbbreviatedPath": "\/images\/gdays_cover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
