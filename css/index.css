@@ -1,16 +1,21 @@
 body {
-  font-family: 'Roboto'; }
+  font-family: 'Roboto';
+  height: 100%; }
   body .container-fluid {
     padding: 0px; }
   body .vertical-gap {
     display: block;
     margin: 20px; }
 
+.header-container {
+  height: 100%; }
+
 .jumbotron {
   color: white;
   background-color: #3e50b4;
   padding: 5%;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  height: 100%; }
   .jumbotron .h1_caption {
     font-weight: lighter; }
 

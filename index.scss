@@ -2,6 +2,8 @@ body
 {
 	font-family: 'Roboto';
 
+	height: 100%;
+
 	.container-fluid
 	{
 		padding: 0px;
@@ -14,12 +16,19 @@ body
 	}
 }
 
+.header-container
+{
+	height: 100%;
+}
+
 .jumbotron
 {
 	color: white;
 	background-color: rgb(62, 80, 180);
 	padding: 5%;
 	margin-bottom: 0px;
+
+	height: 100%;
 
 	.h1_caption
 	{
