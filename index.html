@@ -27,6 +27,19 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/jquery.equalheights.js"></script>
 
+    <style>
+      @media (min-width: 992px){
+        #community_shoutouts{
+            display: flex;
+
+        }
+        #community_shoutouts .thumbnail{
+          flex: 1;
+          margin: 15px;
+        }
+      }
+    </style>
+
     <!-- Elements -->
     <style shim-shadowdom="">
 /*******************************
@@ -1634,7 +1647,6 @@ mode: cover
     :host(.circle) .wave-container {
       overflow: hidden;
     }
-
   </style>
 
   <div id="bg"></div>
@@ -3825,11 +3837,10 @@ Fired when the Maps API has fully loaded.
 
       <div class="vertical-gap"></div>
 
-      <div class="row">
+      <div class="row" id="community_shoutouts">
 
         <!-- GDays -->
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-          <div class="thumbnail">
+        <div class="thumbnail col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
             <h3>GDays KL</h3>
 
@@ -3868,12 +3879,10 @@ Fired when the Maps API has fully loaded.
               </div>
             </div>
 
-          </div>
         </div>
 
         <!-- Hackerspace -->
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-          <div class="thumbnail">
+        <div class="thumbnail col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <h3>Hackerspace MMU</h3>
 
             <div class="vertical-gap"></div>
@@ -3900,8 +3909,6 @@ Fired when the Maps API has fully loaded.
                 </a>
               </div>
             </div>
-
-          </div>
         </div>
 
       </div>
